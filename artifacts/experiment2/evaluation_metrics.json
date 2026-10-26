@@ -1,0 +1,62 @@
+{
+    "accuracy": 0.7889,
+    "macro_precision": 0.7889,
+    "macro_recall": 0.7889,
+    "macro_f1": 0.7839,
+    "weighted_precision": 0.7889,
+    "weighted_recall": 0.7889,
+    "weighted_f1": 0.7839,
+    "num_test_samples": 90,
+    "class_names": [
+        "Tomato___Bacterial_spot",
+        "Tomato___Early_blight",
+        "Tomato___Late_blight",
+        "Tomato___Leaf_Mold",
+        "Tomato___healthy"
+    ],
+    "per_class": {
+        "Tomato___Bacterial_spot": {
+            "precision": 0.7272727272727273,
+            "recall": 0.8888888888888888,
+            "f1-score": 0.8,
+            "support": 18.0
+        },
+        "Tomato___Early_blight": {
+            "precision": 0.6666666666666666,
+            "recall": 0.5555555555555556,
+            "f1-score": 0.6060606060606061,
+            "support": 18.0
+        },
+        "Tomato___Late_blight": {
+            "precision": 0.9411764705882353,
+            "recall": 0.8888888888888888,
+            "f1-score": 0.9142857142857143,
+            "support": 18.0
+        },
+        "Tomato___Leaf_Mold": {
+            "precision": 0.8,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.7272727272727273,
+            "support": 18.0
+        },
+        "Tomato___healthy": {
+            "precision": 0.8095238095238095,
+            "recall": 0.9444444444444444,
+            "f1-score": 0.8717948717948718,
+            "support": 18.0
+        },
+        "accuracy": 0.7888888888888889,
+        "macro avg": {
+            "precision": 0.7889279348102877,
+            "recall": 0.7888888888888888,
+            "f1-score": 0.7838827838827839,
+            "support": 90.0
+        },
+        "weighted avg": {
+            "precision": 0.7889279348102878,
+            "recall": 0.7888888888888889,
+            "f1-score": 0.783882783882784,
+            "support": 90.0
+        }
+    }
+}

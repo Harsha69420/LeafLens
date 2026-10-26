@@ -1,0 +1,33 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.streamlit/secrets.toml
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Caches and logs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+
+# Experimental model checkpoints
+/models/experiment_best.keras
+/models/experiment_best2.keras
